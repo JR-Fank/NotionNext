@@ -58,11 +58,6 @@ export default function SideRight(props) {
                 <Live2D />
 
                 {/* 标签和成绩 */}
-                <Card className={'bg-white dark:bg-[#1e1e1e] dark:text-white'}>
-                    <TagGroups tags={tagOptions} currentTag={currentTag} />
-                    <hr className='mx-1 flex border-dashed relative my-4' />
-                    <AnalyticsCard {...props} />
-                </Card>
             </div>
 
         </div>
