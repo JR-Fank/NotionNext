@@ -103,10 +103,10 @@ const CONFIG = {
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
-  MENU_INDEX: true, // 显示首页
+  MENU_INDEX: false, // 显示首页
   MENU_CATEGORY: true, // 显示分类
   MENU_TAG: true, // 显示标签
-  MENU_ARCHIVE: true, // 显示归档
+  MENU_ARCHIVE: false, // 显示归档
   MENU_SEARCH: true, // 显示搜索
 
   POST_LIST_COVER: true, // 列表显示文章封面
