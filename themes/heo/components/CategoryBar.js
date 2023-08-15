@@ -12,7 +12,7 @@ import { useRef, useState } from 'react'
 export default function CategoryBar(props) {
   const { categoryOptions, border = true } = props
   const { locale } = useGlobal()
-  
+  const [scrollRight, setScrollRight] = useState(false)
   // 创建一个ref引用
   const categoryBarItemsRef = useRef(null)
 
@@ -40,9 +40,7 @@ export default function CategoryBar(props) {
             <div id='right' className='cursor-pointer mx-2' onClick={handleToggleScroll}>
             {scrollRight ? <ChevronDoubleLeft className={'w-5 h-5'} /> : <ChevronDoubleRight className={'w-5 h-5'} /> }
             </div>
-            <Link href='/category' className='whitespace-nowrap font-bold text-gray-900 dark:text-white transition-colors duration-200 hover:text-indigo-600'>
-                {locale.MENU.CATEGORY}
-            </Link>
+            
         </div>
     </div>
 }
