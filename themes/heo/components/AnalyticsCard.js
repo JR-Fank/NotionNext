@@ -5,7 +5,7 @@ import CONFIG from '../config'
  * @param {*} props
  * @returns
  */
-export function AnalyticsCard(props) {
+/*export function AnalyticsCard(props) {
   const targetDate = new Date(CONFIG.SITE_CREATE_TIME)
   const today = new Date()
   const diffTime = today.getTime() - targetDate.getTime() // 获取两个日期之间的毫秒数差值
