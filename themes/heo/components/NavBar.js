@@ -152,9 +152,7 @@ const NavBar = props => {
                     <div onClick={toggleMenuOpen} className='flex lg:hidden w-8 justify-center items-center h-8 cursor-pointer'>
                     </div>
                 </div>
-
-                {/* 右边侧拉抽屉 */}
-                     
+                {/* 右边侧拉抽屉 */}      
             </div>
         </nav>
     </>)
