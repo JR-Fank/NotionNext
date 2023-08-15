@@ -150,7 +150,6 @@ const NavBar = props => {
 
                     {/* 移动端菜单按钮 */}
                     <div onClick={toggleMenuOpen} className='flex lg:hidden w-8 justify-center items-center h-8 cursor-pointer'>
-                        <i className='fas fa-bars' />
                     </div>
                 </div>
 
