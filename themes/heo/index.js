@@ -95,8 +95,8 @@ const LayoutIndex = (props) => {
   return <LayoutBase {...props} slotRight={slotRight} headerSlot={headerSlot}>
         <div id='post-outer-wrapper' className='px-5 md:px-0'>
             {/* 文章分类条 */}
-            
-            {BLOG.POST_LIST_STYLE === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}
+            <CategoryBar {...props} />
+            {BLOG.POST_LIST_STYLE === 'page' ? <BlogPostListPage {...props} /> : }
         </div>
     </LayoutBase>
 }
