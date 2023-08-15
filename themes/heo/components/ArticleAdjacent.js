@@ -42,5 +42,11 @@ export default function ArticleAdjacent({ prev, next }) {
     }
   }, [])
 
+  if (!prev || !next || !CONFIG.ARTICLE_ADJACENT) {
+    return <></>
+  }
 
+  return (
+
+  )
 }
