@@ -75,4 +75,4 @@ import CONFIG from '../config'
 
         </div>
   )
-}
+
