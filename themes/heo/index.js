@@ -117,8 +117,7 @@ const LayoutPostList = (props) => {
   return <LayoutBase {...props} slotRight={slotRight} headerSlot={headerSlot}>
         <div id='post-outer-wrapper' className='px-5  md:px-0'>
             {/* 文章分类条 */}
-            <CategoryBar {...props} />
-            {BLOG.POST_LIST_STYLE === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}
+            
         </div>
     </LayoutBase>
 }
@@ -183,10 +182,20 @@ const LayoutArchive = (props) => {
 
   // 归档页顶部显示条，如果是默认归档则不显示。分类详情页显示分类列表，标签详情页显示当前标签
 
-  // return <LayoutBase {...props} slotRight={slotRight} headerSlot={headerSlot}>
-        // <div className='p-5 rounded-xl border dark:border-gray-600 max-w-6xl w-full bg-white dark:bg-[#1e1e1e]'>
+  return <LayoutBase {...props} slotRight={slotRight} headerSlot={headerSlot}>
+        <div className='p-5 rounded-xl border dark:border-gray-600 max-w-6xl w-full bg-white dark:bg-[#1e1e1e]'>
             {/* 文章分类条 */}
-            
+            <CategoryBar {...props} border={false} />
+
+            <div className='px-3'>
+                {Object.keys(archivePosts).map(archiveTitle => (
+                    <BlogPostArchive
+                        key={archiveTitle}
+                        posts={archivePosts[archiveTitle]}
+                        archiveTitle={archiveTitle}
+                    />
+                ))}
+            </div>
         </div>
     </LayoutBase>
 }
