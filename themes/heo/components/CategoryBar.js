@@ -12,7 +12,7 @@ import { useRef, useState } from 'react'
 export default function CategoryBar(props) {
   const { categoryOptions, border = true } = props
   const { locale } = useGlobal()
-  const [scrollRight, setScrollRight] = useState(false)
+  
   // 创建一个ref引用
   const categoryBarItemsRef = useRef(null)
 
