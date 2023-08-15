@@ -1,7 +1,7 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
-  SITE_CREATE_TIME: false, // 建站日期，用于计算网站运行的第几天
+  SITE_CREATE_TIME: '2019', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   
@@ -119,13 +119,13 @@ const CONFIG = {
 
   ARTICLE_ADJACENT: false, // 显示上一篇下一篇文章推荐
   ARTICLE_COPYRIGHT: true, // 显示文章版权声明
-  ARTICLE_RECOMMEND: true, // 文章关联推荐
+  ARTICLE_RECOMMEND: false, // 文章关联推荐
 
   WIDGET_LATEST_POSTS: false, // 显示最新文章卡
   WIDGET_ANALYTICS: false, // 显示统计卡
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: true, // 跳到评论区
-  WIDGET_DARK_MODE: true, // 夜间模式
+  WIDGET_DARK_MODE: false, // 夜间模式
   WIDGET_TOC: false // 移动端悬浮目录
 }
 export default CONFIG
