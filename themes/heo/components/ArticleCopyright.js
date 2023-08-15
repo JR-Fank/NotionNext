@@ -12,7 +12,9 @@ export default function ArticleCopyright () {
     setPath(window.location.href)
   })
 
+  const { locale } = useGlobal()
 
+  if (!CONFIG.ARTICLE_COPYRIGHT) {
     return <></>
   }
 
