@@ -125,7 +125,7 @@ const CONFIG = {
   WIDGET_ANALYTICS: false, // 显示统计卡
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: true, // 跳到评论区
-  WIDGET_DARK_MODE: false, // 夜间模式
+  WIDGET_DARK_MODE: true, // 夜间模式
   WIDGET_TOC: true // 移动端悬浮目录
 }
 export default CONFIG
