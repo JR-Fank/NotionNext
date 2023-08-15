@@ -6,7 +6,8 @@ import { useEffect, useState } from 'react'
 import CONFIG from '../config'
 
 export default function ArticleCopyright () {
-
+  const router = useRouter()
+  const [path, setPath] = useState(BLOG.LINK + router.asPath)
   useEffect(() => {
     setPath(window.location.href)
   })
@@ -39,4 +40,4 @@ export default function ArticleCopyright () {
       </ul>
     </section>
   )
-
+}
