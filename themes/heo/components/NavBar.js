@@ -155,7 +155,7 @@ const NavBar = props => {
                 </div>
 
                 {/* 右边侧拉抽屉 */}
-                <SlideOver cRef={slideOverRef} {...props} />
+                     
             </div>
         </nav>
     </>)
