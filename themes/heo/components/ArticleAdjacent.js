@@ -8,15 +8,7 @@ import CONFIG from '../config'
  * @param {prev,next} param0
  * @returns
  */
-export default function ArticleAdjacent({ prev, next }) {
-  const [isScrollEnd, setIsScrollEnd] = useState(false)
-  const router = useRouter()
 
-  useEffect(() => {
-    setIsScrollEnd(false)
-  }, [router])
-
-  useEffect(() => {
     // 文章是否已经到了底部li
     const targetElement = document.getElementById('article-end')
 
