@@ -2,26 +2,23 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import CONFIG from '../config'
+/**
+ * 上一篇，下一篇文章
+ * @param {prev,next} param0
+ * @returns
+ */
+export default function ArticleAdjacent({ prev, next }) {
+  const [isScrollEnd, setIsScrollEnd] = useState(false)
+  const router = useRouter()
 
-        if (entry.isIntersecting) {
-          setIsScrollEnd(true)
-        }
-      })
-    }
+  useEffect(() => {
+    setIsScrollEnd(false)
+  }, [router])
 
-    const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.1
-    }
+  useEffect(() => {
 
-    const observer = new IntersectionObserver(handleIntersect, options)
-    observer.observe(targetElement)
+    // 文章是否已经到了底部
 
-    return () => {
-      observer.disconnect()
-    }
-  }, [])
 
   if (!prev || !next || !CONFIG.ARTICLE_ADJACENT) {
     return <></>
