@@ -1,11 +1,34 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<rect width="200" height="200" fill="#111111"/>
-<path d="M200.563 83.7392H169V144.594H168.092L126.765 83.7392H99.9706V200H131.534V138.918H132.215L174.223 200H200.563V83.7392Z" fill="white"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="200" height="200" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="235px" height="212px" viewBox="0 0 235 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iPad Pro 11″</title>
+    <defs>
+        <linearGradient x1="50%" y1="148.281019%" x2="50%" y2="6.58657837%" id="linearGradient-1">
+            <stop stop-color="#F5576C" offset="0%"></stop>
+            <stop stop-color="#F093FB" offset="99.98122%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="145.009789%" id="linearGradient-2">
+            <stop stop-color="#F093FB" offset="0%"></stop>
+            <stop stop-color="#F5576C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-10.4966109%" x2="50%" y2="94.5720991%" id="linearGradient-3">
+            <stop stop-color="#F093FB" offset="0%"></stop>
+            <stop stop-color="#F5576C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0000036%" y1="-113.949378%" x2="50.0000036%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#F093FB" offset="0%"></stop>
+            <stop stop-color="#F093FB" offset="57.2742325%"></stop>
+            <stop stop-color="#F46792" offset="88.7005685%"></stop>
+            <stop stop-color="#F5576C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="iPad-Pro-11″" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="235" height="212"></rect>
+        <polyline id="路径" fill="url(#linearGradient-1)" points="6 100 6 0 106 0 106 100"></polyline>
+        <circle id="椭圆形" fill="url(#linearGradient-2)" cx="178" cy="50" r="50"></circle>
+        <path d="M208,112 C219.045695,112 228,120.954305 228,132 L228,192 C228,203.045695 219.045695,212 208,212 L148,212 C136.954305,212 128,203.045695 128,192 L128,132 C128,120.954305 136.954305,112 148,112" id="路径" fill="url(#linearGradient-3)"></path>
+        <polygon id="三角形" fill="url(#linearGradient-4)" points="61 112 116 212 6 212"></polygon>
+        <text id="JR-FANK" opacity="0.973901658" fill-rule="nonzero" font-family="LuckiestGuy-Regular, Luckiest Guy" font-size="60" font-weight="normal" fill="#000000" fill-opacity="0.85">
+            <tspan x="1.54296875" y="130">JR-FANK</tspan>
+        </text>
+    </g>
 </svg>
