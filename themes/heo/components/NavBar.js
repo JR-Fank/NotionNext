@@ -23,9 +23,6 @@ const NavBar = props => {
 
   const slideOverRef = useRef()
 
-  const toggleMenuOpen = () => {
-    slideOverRef?.current?.toggleSlideOvers()
-  }
 
   /**
        * 根据滚动条，切换导航栏样式
@@ -147,7 +144,7 @@ const NavBar = props => {
                     <SearchButton {...props}/>
                 
                     {/* 移动端菜单按钮 */}
-                    <div>
+                    <div onClick={toggleMenuOpen} className='flex lg:hidden w-8 justify-center items-center h-8 cursor-pointer'>
                         <i className='fas fa-bars' />
                     </div>                                                                                                                                               
                 </div>                                                                                                                                               
