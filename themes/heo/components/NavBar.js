@@ -145,11 +145,8 @@ const NavBar = props => {
                 {/* 右侧固定 */}
                 <div className='flex flex-shrink-0 justify-center items-center'>
                     <SearchButton {...props}/>
-                
                     {/* 移动端菜单按钮 */}
-                    <div onClick={toggleMenuOpen} className='flex lg:hidden w-8 justify-center items-center h-8 cursor-pointer'>
-
-                    </div>                                                                                                                                               
+                                                                                                                                      
                 </div>                                                                                                                                               
                 {/* 右边侧拉抽屉 */}      
             </div>
