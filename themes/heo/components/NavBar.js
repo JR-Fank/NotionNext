@@ -23,6 +23,9 @@ const NavBar = props => {
 
   const slideOverRef = useRef()
 
+  const toggleMenuOpen = () => {
+    slideOverRef?.current?.toggleSlideOvers()
+  }
 
   /**
        * 根据滚动条，切换导航栏样式
