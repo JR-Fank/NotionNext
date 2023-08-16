@@ -147,7 +147,10 @@ const NavBar = props => {
                     <SearchButton {...props}/>
                 
                     {/* 移动端菜单按钮 */}
-                                                                                                                                               
+                    <div>
+                        <i className='fas fa-bars' />
+                    </div>                                                                                                                                               
+                </div>                                                                                                                                               
                 {/* 右边侧拉抽屉 */}      
             </div>
         </nav>
