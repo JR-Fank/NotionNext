@@ -12,7 +12,7 @@ const CONFIG = {
   HERO_TITLE_3: 'JRFANK.CC',
   HERO_TITLE_4: '最新上线',
   HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HERO_TITLE_LINK: 'www.jrfank.cc',
+  HERO_TITLE_LINK: 'https://csl.jrfank.cc',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
