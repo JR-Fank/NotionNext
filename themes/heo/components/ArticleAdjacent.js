@@ -17,7 +17,7 @@ export default function ArticleAdjacent({ prev, next }) {
   }, [router])
 
   useEffect(() => {
-    // 文章是否已经到了底部li
+    // 文章是否已经到了底部
     const targetElement = document.getElementById('article-end')
 
     const handleIntersect = (entries) => {
