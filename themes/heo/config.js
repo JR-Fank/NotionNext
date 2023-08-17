@@ -34,7 +34,7 @@ const CONFIG = {
     '🦷 人体口腔运动员'
   ],
   INFO_CARD_URL: 'https://twitter.com/JRFank8888', // 个人资料底部按钮链接
-
+  INFO_CARR_URL: 'https://twitter.com/JRFank8888',
   // 用户技能图标
   GROUP_ICONS: [
     {
