@@ -33,7 +33,7 @@ const CONFIG = {
     '🤖️ 数码科技爱好者',
     '🦷 人体口腔运动员'
   ],
-  INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://twitter.com/JRFank8888', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
