@@ -20,7 +20,7 @@ export default function TouchMeCard() {
                     <div className='h-full'>
                         <h2 className='font-[1000] text-3xl'>{CONFIG.SOCIAL_CARD_TITLE_1}</h2>
                         <h3 className='pt-2'>{CONFIG.SOCIAL_CARD_TITLE_2}</h3>
-                        <div className='absolute left-0 top-0 w-full h-full' style={{ background: 'url(https://p.ipic.vip/klgfpd.png) center center no-repeat' }}></div>
+                        <div className='absolute left-0 top-0 w-full h-full' style={{ background: 'url(https://p.ipic.vip/ta81eq.png) center center no-repeat' }}></div>
                     </div>}
                 backContent={<Link href={CONFIG.SOCIAL_CARD_URL}>
                     <div className='font-[1000] text-xl h-full'>
