@@ -1521,7 +1521,6 @@ code[class*='language-'] {
 .notion-user {
   display: block;
   object-fit: cover;
-  border-radius: 100%;
   width: 20px;
   height: 20px;
 }
