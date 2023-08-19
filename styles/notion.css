@@ -1413,7 +1413,7 @@ code[class*='language-'] {
   justify-content: center;
   height: 22px;
   width: 22px;
-  border-radius: 20px;
+  border-radius: 8px;
   flex-shrink: 0;
   margin-left: 2px;
   margin-right: 6px;
