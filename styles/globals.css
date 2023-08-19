@@ -214,7 +214,7 @@ a.avatar-wrapper {
 }
 
 .avatar {
-  border-radius: 50%;
+  border-radius: 20px;
   margin: 0;
   border: 3px solid rgba(0, 116, 222, .5);
 }
