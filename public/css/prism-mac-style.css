@@ -40,7 +40,7 @@ pre[class*='language-'] {
 .pre-mac > span {
   width: 10px;
   height: 10px;
-  border-radius: 50%;
+  border-radius: 80%;
   margin-right: 5px;
   float: left;
 }
