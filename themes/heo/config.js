@@ -97,8 +97,8 @@ const CONFIG = {
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   SOCIAL_CARD_TITLE_1: 'CONTACT',
-  SOCIAL_CARD_TITLE_2: '🌟Share with me！',
-  SOCIAL_CARD_TITLE_3: 'chat with me now',
+  SOCIAL_CARD_TITLE_2: '🌟share with me！',
+  SOCIAL_CARD_TITLE_3: '👉LET‘S CHAT',
   SOCIAL_CARD_URL: 'https://t.me/jrfank_bot',
 
   // *****  以下配置无效，只是预留开发 ****
