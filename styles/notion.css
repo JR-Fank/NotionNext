@@ -1413,7 +1413,7 @@ code[class*='language-'] {
   justify-content: center;
   height: 22px;
   width: 22px;
-  border-radius: 3px;
+  border-radius: 20px;
   flex-shrink: 0;
   margin-left: 2px;
   margin-right: 6px;
@@ -1521,6 +1521,7 @@ code[class*='language-'] {
 .notion-user {
   display: block;
   object-fit: cover;
+  border-radius: 100%;
   width: 20px;
   height: 20px;
 }
