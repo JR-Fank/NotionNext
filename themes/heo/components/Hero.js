@@ -270,7 +270,7 @@ function TodayCard({ cRef }) {
                     <div id='more' className='select-none'>更多精彩</div>
                 </div>
             </div>
-            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://p.ipic.vip/tytffm.png') no-repeat center /cover" }}></div>
+            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://p.ipic.vip/g2rwuc.png') no-repeat center /cover" }}></div>
         </div>
     </div>
 }
