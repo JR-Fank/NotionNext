@@ -237,9 +237,16 @@ const LayoutSlug = props => {
                         data-aos-anchor-placement="top-bottom"
                         itemScope itemType="https://schema.org/Movie" className="subpixel-antialiased overflow-y-hidden" >
                         {/* Notion文章主体 */}
-                        <section className='px-5 justify-center mx-auto'>
-                            {post && <NotionPage post={post} />}
-                        </section>
+                     <section className='px-5 justify-center mx-auto'>
+                         {post && (
+                             <NotionPage post={post}>
+                                 {/* Modify the image rendering part */}
+                                 <div className='notion-image'>
+                                     <img src={imageSrc} alt={altText} className='article-image' />
+                                 </div>
+                             </NotionPage>
+                          )}
+                      </section>
 
                         {/* 分享 */}
                         <ShareBar post={post} />
